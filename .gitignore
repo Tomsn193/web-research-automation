@@ -1,0 +1,22 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data outputs & logs (ignore scraped/generated CSV files)
+output/
+*.log
+
+# Environment variables & secrets (if added in the future)
+.env
+
+# OS/Editor specific files
+.DS_Store
+.vscode/
+.idea/
